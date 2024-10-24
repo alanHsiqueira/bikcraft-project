@@ -1,20 +1,7 @@
-body{
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-ul{
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
 
 .header-bg{
   background-color: #000000;
 }
-a{
-  text-decoration: none;
-}
-
 .header{
   display: flex;
   flex-wrap: wrap;
@@ -40,6 +27,8 @@ a{
   padding: 16px 0px;
   font-size: 18px;
   position: relative;
+  font-family: 'Poppins';
+  font-weight: 400;
 }
 .header-menu a::after{
   content: "";
